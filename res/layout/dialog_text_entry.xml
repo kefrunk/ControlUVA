@@ -1,0 +1,75 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+        <TableRow>
+    <EditText
+        android:id="@+id/ip_edit1"
+        android:layout_width="41dp"
+        android:layout_height="35dp"
+        android:textSize="12sp" 
+        android:layout_marginLeft="5px" 
+        android:hint="N1"/>
+ <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="15sp" 
+        android:text="."/>
+
+ 
+ <EditText
+              android:id="@+id/ip_edit2"
+              android:layout_width="41dp"
+              android:layout_height="35dp"
+              android:textSize="12sp" 
+              android:hint="N2"/>      
+
+          
+           <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="15sp" 
+        android:text="."/>
+           
+           
+ <EditText
+              android:id="@+id/ip_edit3"
+              android:layout_width="41dp"
+              android:layout_height="35dp"
+              android:textSize="12sp" 
+              android:hint="N3"/>
+
+        <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="15sp" 
+        android:text="."/>
+           
+          <EditText
+              android:id="@+id/ip_edit4"
+              android:layout_width="41dp"
+              android:layout_height="35dp"
+              android:textSize="12sp" 
+              android:hint="N4"/>
+          
+          <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="15sp" 
+        android:text=":"/>
+          
+          <EditText
+              android:id="@+id/puerto_edit"
+              android:layout_width="50dp"
+              android:layout_height="35dp"
+              android:layout_alignBaseline="@+id/ip_edit3"
+              android:layout_alignBottom="@+id/ip_edit3"
+              android:textSize="12sp" android:hint="PUET"/>
+          
+          </TableRow>
+    
+</TableLayout>
+    
+            
+    

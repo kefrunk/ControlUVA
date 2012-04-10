@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Riego UVA</string>
+    <string name="AlarmActivada">Alarma activada</string>
+    <string name="ButtonOkText">Cambiar Hora</string>
+    <string name="ButtonDaysText">Cambiar Dias</string>
+    <string name="ToastOk1">Guardado: </string>
+    <string name="ToastOk2">\nEl Riego empezara dentro de: </string>
+    <string name="hours">horas </string>
+    <string name="minutes">minutos</string>
+    <string name="seconds">segundos</string>
+    <string name="waterDays">Dias de Riego</string>
+    <string name="ToastInicioRiego">Iniciando Riego</string>
+    <string name="ToastE1Riego">Paso 1 finalizado\nIniciando Paso 2</string>
+    <string name="ToastE2Riego">Paso 2 finalizado\nIniciando Paso 3</string>
+    <string name="ToastE3Riego">Paso 3 finalizado\nIniciando Paso 4</string>
+    <string name="ToastE4Riego">Riego y abonado finalizado</string>
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Mieroles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string name="saturday">Sabado</string>
+    <string name="sunday">Domingo</string>
+     <string name="cambiarIP">Cambiar IP</string>
+     <string name="cambiarMensaje">Cambiar Mensaje</string>
+     <string name="Niveles">Nivel Sensores</string>
+     <string name="enviandoOrden">Enviando Orden</string>
+     <string name="OrdenNoRec">Orden no recibida</string>
+      <string name="ServContactado">Servidor contactado</string>
+       <string name="OrdenRecibida">Orden recibida\nProcesando peticion</string>
+        <string name="Configurar">Opciones</string> 
+     <string name="tiempoPasado">La hora establecida pertenece al pasado</string>
+
+</resources>

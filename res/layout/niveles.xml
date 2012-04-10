@@ -1,0 +1,147 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:myNamespace="http://schemas.android.com/apk/res/com.edward.controlUVA"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    > 
+        <ScrollView android:id="@+id/ScrollVieniveles"
+android:layout_width="fill_parent"
+android:layout_height="400sp">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:myNamespace="http://schemas.android.com/apk/res/com.edward.controlUVA"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >  
+    
+    <TextView
+          android:id="@+id/textView1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Nivel agua: Tuberia Sector 1" 
+          android:gravity="center_horizontal"
+          android:textSize="16sp"/>
+
+    <com.edward.controlUVA.component.NivelAgua1
+        android:id="@+id/blue_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:padding="3dip"
+        myNamespace:max="100"
+        myNamespace:progress="80"
+        myNamespace:progressDrawable="@drawable/red_progress_clip"
+        myNamespace:track="@drawable/progress_bar_fill_bg"
+        ></com.edward.controlUVA.component.NivelAgua1>
+    
+  <TextView
+          android:id="@+id/textView2"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Nivel agua: Tuberia Sector 2" 
+          android:gravity="center_horizontal" 
+          android:paddingTop="10sp" 
+          android:textSize="16sp"/>
+ 
+ <com.edward.controlUVA.component.NivelAgua2
+        android:id="@+id/blue_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:padding="3dip"
+        myNamespace:max="100"
+        myNamespace:progress="60"
+        myNamespace:progressDrawable="@drawable/red_progress_clip"
+        myNamespace:track="@drawable/progress_bar_fill_bg"
+        ></com.edward.controlUVA.component.NivelAgua2>
+ 
+     
+       <TextView
+          android:id="@+id/textView3"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Nivel Presion: Tuberia Sector 1" 
+          android:gravity="center_horizontal"
+           android:paddingTop="40sp" 
+          android:textSize="16sp"/>
+    
+    <com.edward.controlUVA.component.NivelPresion1
+        android:id="@+id/blue_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:padding="3dip"
+        myNamespace:max="100"
+        myNamespace:progress="70"
+        myNamespace:progressDrawable="@drawable/red_progress_clip"
+        myNamespace:track="@drawable/progress_bar_fill_bg"
+        ></com.edward.controlUVA.component.NivelPresion1>
+    
+  <TextView
+          android:id="@+id/textView2"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Nivel Presion: Tuberia Sector 2" 
+          android:gravity="center_horizontal" 
+          android:paddingTop="10sp" 
+          android:textSize="16sp"/>
+ 
+ <com.edward.controlUVA.component.NivelPresion2
+        android:id="@+id/blue_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:padding="3dip"
+        myNamespace:max="100"
+        myNamespace:progress="5"
+        myNamespace:progressDrawable="@drawable/red_progress_clip"
+        myNamespace:track="@drawable/progress_bar_fill_bg"
+        ></com.edward.controlUVA.component.NivelPresion2>
+ 
+       <TextView
+          android:id="@+id/textView5"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Nivel humedad suelo Sector 1" 
+          android:gravity="center_horizontal"
+           android:paddingTop="40sp" 
+          android:textSize="16sp"/>
+    
+    <com.edward.controlUVA.component.NivelHumedad1
+        android:id="@+id/blue_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:padding="3dip"
+        myNamespace:max="100"
+        myNamespace:progress="90"
+        myNamespace:progressDrawable="@drawable/red_progress_clip"
+        myNamespace:track="@drawable/progress_bar_fill_bg"
+        ></com.edward.controlUVA.component.NivelHumedad1>
+    
+  <TextView
+          android:id="@+id/textView6"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Nivel humedad suelo Sector 2" 
+          android:gravity="center_horizontal" 
+          android:paddingTop="10sp" 
+          android:textSize="16sp"/>
+ 
+ <com.edward.controlUVA.component.NivelHumedad2
+        android:id="@+id/blue_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_alignParentBottom="true"
+        android:padding="3dip"
+        myNamespace:max="100"
+        myNamespace:progress="80"
+        myNamespace:progressDrawable="@drawable/red_progress_clip"
+        myNamespace:track="@drawable/progress_bar_fill_bg"
+        ></com.edward.controlUVA.component.NivelHumedad2>
+
+</LinearLayout>
+   </ScrollView> 
+
+</LinearLayout>
